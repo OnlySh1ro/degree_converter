@@ -12,10 +12,10 @@ grados_convertir = float(input("que grado desea convertir?: "))
 
 
 if convertidor == "f":
-     print(f"el resultado de la conversion fue de: {fahrenheit(grados_convertir)}")
+     print(f"el resultado de la conversion a celcius: {fahrenheit(grados_convertir):.2f}")
 
 elif convertidor == "c":
-    print(f"el resultado de la conversion fue de: {celcius(grados_convertir)}")
+    print(f"el resultado de la conversion a fahrenheit es: {celcius(grados_convertir):.2f}")
 
 else:
     print("expression incorrecta / numero incorrecto")
